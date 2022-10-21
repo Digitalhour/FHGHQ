@@ -93,7 +93,7 @@ exports.updateMap = function () {
   let startLoadDate = new Date();
   regionNames.forEach(function (value) {
     var str =
-      'https://war-service-live.foxholeservices.com/api/worldconquest/maps/' +
+      'https://war-service-live.foxholeservices-3.com/api/worldconquest/maps/' +
       value +
       '/dynamic/public';
     var request = new XMLHttpRequest();
@@ -264,7 +264,7 @@ exports.pullStatic = function () {
   let startLoadDate = new Date();
   regionNames.forEach(function (value) {
     var str =
-      'https://war-service-live.foxholeservices.com/api/worldconquest/maps/' +
+      'https://war-service-live.foxholeservices-3.com/api/worldconquest/maps/' +
       value +
       '/static';
     var request = new XMLHttpRequest();
@@ -377,7 +377,7 @@ exports.updateWarReport = function () {
   let startLoadDate = new Date();
   regionNames.forEach(function (value) {
     var str =
-      'https://war-service-live.foxholeservices.com/api/worldconquest/warReport/' +
+      'https://war-service-live.foxholeservices-3.com/api/worldconquest/warReport/' +
       value;
     var request = new XMLHttpRequest();
     request.responseType = 'json';
